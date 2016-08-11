@@ -767,37 +767,43 @@ if ($configuration->getUseFal()) {
                         'showitem' => '
 						--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;newsPalette,
 						--palette--;;imageoverlayPalette,
-						--palette--;;filePalette'
+						--palette--;;filePalette,
+						sys_language_uid'
                     ],
                     \TYPO3\CMS\Core\Resource\File::FILETYPE_TEXT => [
                         'showitem' => '
 						--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;newsPalette,
 						--palette--;;imageoverlayPalette,
-						--palette--;;filePalette'
+						--palette--;;filePalette,
+						sys_language_uid'
                     ],
                     \TYPO3\CMS\Core\Resource\File::FILETYPE_IMAGE => [
                         'showitem' => '
 						--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;newsPalette,
 						--palette--;;imageoverlayPalette,
-						--palette--;;filePalette'
+						--palette--;;filePalette,
+						sys_language_uid'
                     ],
                     \TYPO3\CMS\Core\Resource\File::FILETYPE_AUDIO => [
                         'showitem' => '
 						--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;newsPalette,
 						--palette--;;imageoverlayPalette,
-						--palette--;;filePalette'
+						--palette--;;filePalette,
+						sys_language_uid'
                     ],
                     \TYPO3\CMS\Core\Resource\File::FILETYPE_VIDEO => [
                         'showitem' => '
 						--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;newsPalette,
 						--palette--;;imageoverlayPalette,
-						--palette--;;filePalette'
+						--palette--;;filePalette,
+						sys_language_uid'
                     ],
                     \TYPO3\CMS\Core\Resource\File::FILETYPE_APPLICATION => [
                         'showitem' => '
 						--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;newsPalette,
 						--palette--;;imageoverlayPalette,
-						--palette--;;filePalette'
+						--palette--;;filePalette,
+						sys_language_uid'
                     ]
                 ]
             ],
